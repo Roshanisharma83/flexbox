@@ -1,0 +1,60 @@
+
+h1{
+    font-size: 5rem !important;
+    position: absolute;
+    left: 20rem;
+    font-weight: 100;
+    color: #000000;
+   
+}
+p{
+    text-align-last: start;
+    font-family: sans-serif;
+    color: #7e7e7e;
+}
+img {
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+  }
+.container{
+    width: 80%;
+    margin: auto;
+    padding: 0px;
+    position: relative;
+}
+.head{
+    position: absolute;
+    top: 0px 
+}
+
+.flex-container{
+    display: flex;
+    height: auto;
+    margin-top: 4rem
+    
+}
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+.flex-container > div {
+    flex-grow: 1;
+    margin: 35px;
+    
+  }
+  img{
+    filter: blur(1px);
+  -webkit-filter: blur(1px);
+  }
+  
+  .readmore a{
+    color: gray;
+    float: left;
+  }
+  .readmore .fa-arrow-right{
+    font-size: 8px;
+  }
+  
