@@ -57,4 +57,20 @@ img {
   .readmore .fa-arrow-right{
     font-size: 8px;
   }
+  @media only screen and (max-width: 768px) {
+    .flex-container{
+        display: block;
+    }
+    img{
+        width: 100% !important;
+    }
+    h1{
+        display: none;
+    }
+    .flex-container > div {
+        
+        margin: 0px;
+        
+      }
+  }
   
